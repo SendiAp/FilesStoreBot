@@ -1,0 +1,70 @@
+{
+    "name": "Bot Toko File Telegram",
+    "description": "Bot Penyimpanan File Telegram di Pyrogram oleh @pikyus1",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+    "repository": "https://github.com/SendiAp/FilesStoreBot",
+    "website": "https://telegram.dog/pikyus1",
+    "success_url": "https://t.me/fckyoupeople1",
+    "env": {
+        "API_ID": {
+            "description": "Dapatkan nilai ini dari my.telegram.org" 
+        },
+        "API_HASH": {
+            "description": "Dapatkan nilai ini dari my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Dapatkan Bot Token Dari @BotFather"
+        },
+        "BOT_USERNAME": {
+            "description": "Nama Pengguna Bot Anda yang Anda kirim @BotFather (Jangan Menggunakan [@])"
+        },
+        "DB_CHANNEL": {
+            "description": "ID Saluran yang akan digunakan sebagai Basis Data. Example: -100123456789"
+        },
+        "BOT_OWNER": {
+            "description": "ID Pengguna Pemilik Bot"
+        },
+        "DATABASE_URL": {
+            "description": "URI Basis Data MongoDB untuk Menyimpan ID Pengguna untuk Siaran."
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ID Saluran yang ingin Anda lakukan Paksa Sub untuk menggunakan bot. Example: -100123456789",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Mencatat ID Saluran untuk beberapa Pelacakan XD. Example: -100123456789"
+        },
+        "BANNED_USERS": {
+            "description": "Memblokir anggota yang tidak diinginkan",
+            "required": false
+        },
+        "BANNED_CHAT_IDS": {
+            "description": "ID saluran yang tidak diinginkan dicekal",
+            "required": false
+        },
+        "BROADCAST_AS_COPY": {
+            "description": "Disiarkan dengan Tag Maju atau sebagai Salinan (Tanpa Tag Maju). Nilai harus benar/Salah !!",
+            "required": false
+        },
+        "FORWARD_AS_COPY": {
+            "description": "Jika Benar semua pesan akan diteruskan Sebagai Salin. Jika Salah semua pesan akan diteruskan dengan Tag Teruskan. Nilai harus Benar/Salah !!",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
