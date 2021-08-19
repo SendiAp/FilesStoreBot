@@ -1,5 +1,5 @@
 # FilesStoreBot
-This is Telegram Parmanent Files Store Bot by [@pikyus1](https://github.com/SendiAp).
+This is Telegram Parmanent Files Store Bot by [@pikyus1](https://t.me/pikyus1).
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
@@ -42,7 +42,7 @@ This is Telegram Parmanent Files Store Bot by [@pikyus1](https://github.com/Send
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/hHu2RaePhwI)
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbirHasan2005/PyroFilesStoreBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SendiAp/FilesStoreBot)
 
 ## Commands:
 ```
@@ -56,7 +56,7 @@ banned_users - Get All Banned Users [Owner Only]
 ```
 
 ### Support Group:
-<a href="https://t.me/DevsZone"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Rose_Userbot"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Follow on:
 <p align="left">
